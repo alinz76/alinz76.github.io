@@ -1,12 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Hide the loading animation and show the main content
-    var loadingAnimation = document.getElementById('loader');
+// Show the loader
+document.getElementById("loader").style.display = "block";
 
-    // Simulate a load delay (remove this in production)
-    setTimeout(function() {
-        loadingAnimation.style.display = 'none';
-    }, 3000); // Change this duration as needed
-});
-
-
-
+// Set a timer for 2 seconds
+setTimeout(function() {
+  // Hide the loader
+  document.getElementById("loader").style.display = "none";
+}, 2500);
