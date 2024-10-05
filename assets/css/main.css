@@ -28,6 +28,17 @@ body {
 	
 }
 
+.language-switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -79,7 +90,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Vazirmatn,'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
