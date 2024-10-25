@@ -33,7 +33,7 @@
 .slide-in-right {
     transform: translateX(20px);
     opacity: 0;
-    transition: transform 2.6s ease, opacity 2.6s ease;
+    transition: transform 1.0s ease, opacity 1.0s ease;
 }
 
 .slide-in-right.visible {
